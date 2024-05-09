@@ -7,9 +7,9 @@ The Job Description Parser is a tool designed to help you efficiently analyze jo
 ### Input Parameters
 - **Search Query**: The job title or keyword you're searching for.
 - **Location**: The location where you want to find job listings.
-- **Keywords in Description**: A list of keywords to search for in job descriptions, in order of preference.
-- **Keywords in Title**: A list of keywords to search for in job titles. Matching these keywords increases the rating of the job.
-- **Keywords to Exclude**: A list of keywords to exclude from job titles. Matching these keywords sets the rating of the job to zero.
+- **Ordered Keywords**: A list of keywords to search for in job descriptions, in order of preference.
+- **Title Keywords**: A list of keywords to search for in job titles. Matching these keywords increases the rating of the job.
+- **Exclude Keywords**: A list of keywords to exclude from job titles. Matching these keywords sets the rating of the job to zero.
 - **Pages**: The number of pages of job listings to search on Indeed (up to 100).
 
 ### Output
